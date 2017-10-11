@@ -1,0 +1,366 @@
+/* start main rules */
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{font-family:"Lato",sans-serif;}
+
+.container {width:1170px;/*for medium size screens*/ margin:auto;}
+
+.clear-fix {clear: both;}
+
+/* end main rules */
+
+/* start header */
+
+.header .slider
+{
+    height: 600px;
+    background-image: url(web-design.jpg); /** CSS3 **/
+    background-size: cover;
+    height:650px;
+}
+
+.header .slider .intro
+{
+    padding-top: 350px;
+    text-align: center;
+}
+
+.header .slider .intro h2
+{
+    margin: 0 auto;
+    font-size: 55px;
+    font-weight: bold;
+    width: 460px;
+    color: #006699;
+    border-top: 2px solid #006699;
+    border-bottom: 2px solid #006699;
+    padding: 5px 0;
+}
+
+.header .slider button
+{
+    background: none;
+    margin-top: 40px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    border: solid 3px #006699;
+    color: #006699;
+    cursor: pointer;
+}
+
+
+.header .navbar {background-color: #252F31;color: white;text-transform: uppercase;}
+
+.header .navbar .lettera {font-size: 30px; background: #4B5557; padding: 5px 12px; margin: auto; color: #FFF}
+
+.header .navbar span {color: #2DCB70;}
+
+.header .navbar h2 {color: #FFF;}
+
+.header .navbar ul {list-style: none; float: right}
+
+.header .navbar ul a{text-decoration: none; color: #FFF}
+
+.header .navbar ul a:hover , .header .navbar ul a:active {color: #2CCE70;}
+
+.header .navbar ul li {padding: 10px ;}
+
+/* end header */
+
+/* start features */
+
+.features  {padding: 65px 0 25px 0;}
+
+.features .feet{width: 33.333333%; height: 246px}
+
+.features .feet p {padding: 15px 20px 15px 0;margin: 15px 20px 15px 0}
+
+/* end features */
+
+/* start About me */
+
+.about-me {background-color: #F2F2F2}
+
+.about-me .image {width: 40%; height: 586px}
+
+.about-me .image img {width: 100%;}
+
+.about-me .info  {padding: 60px 80px 0 80px}
+
+.about-me .info h2 {width: 60%;}
+
+.about-me .info p {width: 100%;}
+
+.about-me .info .hoppies {clear: both;padding: 10px 0 0 0}
+
+.about-me .info .hoppies .icon {width: 12%; margin-right: 5%}
+
+.about-me .info .hoppies .text {width: 83%}
+
+.about-me .info .hoppies .icon img {width: 100%; margin: 30px 15px 0 0;}
+
+.about-me .info .hoppies .content h3 { margin-bottom: 0}
+
+.about-me .info .hoppies .content .text > p {line-height: 1.3}
+
+/* end About me */
+/* start my skills */
+
+.my-skills {background-color: #FFF; padding-top: 70px}
+
+.my-skills .progress .technique div {background-color: #F2F2F2; height: 30px}
+
+.my-skills .progress .technique div .sp 
+{
+    background-color: #2DCC70;
+    text-align: right;
+    height: 30px;
+    line-height: 30px;
+    color: #FFF;
+}
+
+.my-skills .skills > p { padding: 20px 20px 0 0;margin:0 20px 0 0 }
+
+/* end my skills */
+
+/* start resume */
+
+.resume {margin: 80px 0 0 0 ;background-color: #F2F2F2;text-align: center}
+
+.resume h2 {margin: 60px 0 0 0 }
+
+.resume p {text-align: center; font-size: 18px; font-weight: 600; padding-top: 20px}
+
+.resume button 
+{
+    color: #2DCC70;
+    width: 200px;
+    padding: 15px 0;
+    margin: 60px 0 ;
+    text-transform: uppercase;
+    border: solid 2px #2DCC70;
+    background: none;
+    cursor: pointer;
+}
+/* end resume */
+
+/* start my education */
+
+.my-education {background-color: #FFF; padding-top: 70px}
+
+.my-education .exp  { padding-top: 70px}
+
+.my-education .graphic design , .my-education .cit  {margin: 50px 0}
+
+.my-education .exp .gpa 
+{
+    color: #FFF;
+    background-color: #2DCC70;
+    text-transform: uppercase; 
+    padding: 5px 8px;
+    text-align: center;
+    font-weight:bold;
+    font-size: 13px;
+    width: 49px;
+    border:1px solid #2DCC70;
+}
+
+.my-education span {text-transform: uppercase; color: #939393; font-weight:bold; }
+
+.my-education h4 {color:#A4A4A4; display: inline-block; }
+
+.my-education  p {padding: 20px 20px 0 0;margin-right: 20px}
+
+/* end my education */
+
+/* start my work */
+
+.my-work {background-color: #FFF; padding-top: 70px}
+
+.my-work .exp .gpa 
+{
+    color: #FFF;
+    background-color: #2DCC70;
+    text-transform: uppercase; 
+    padding: 5px 8px;
+    text-align: center;
+    font-weight:bold;
+    font-size: 13px;
+    width: 49px;
+    border:1px solid #2DCC70;
+}
+
+.my-work .work > p {padding: 20px 20px 0 0; margin-right: 20px}
+
+
+/* end my work */
+
+/* start unknown */
+
+.unknown 
+{
+    margin: 80px 0 0 0 ;
+    background-color: #F2F2F2;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.unknown p 
+{
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.unknown h4 {color: #616B6F; text-transform: uppercase; }
+
+.unknown ul
+{
+    text-align: center;
+    list-style: circle;
+    padding-left: 0;
+}
+
+.unknown ul li
+{
+    display: inline-block;
+    cursor: pointer;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #2dcc70;
+    border-radius: 50%;
+    margin: 40px 0 50px 0; 
+}
+
+.unknown ul li:active ,.unknown ul li:hover {background-color: #2DCC70}
+
+/* end unknown */
+
+/* start potfolio */
+
+.potfolio h1 {margin: 90px 0 40px}
+
+.potfolio p {font-size: 20px; margin-bottom: 80px}
+
+.potfolio .prev-work > div {margin: 20px; float: left;}
+
+.potfolio .prev-work > div img {cursor: pointer}
+
+
+/* end potfolio */
+
+/* start contact me */
+
+.contact-me {background-color: #252F31}
+
+.contact-me .form {margin: 120px 0;}
+
+.contact-me .info h1 {margin: 90px 0 40px}
+
+.contact-me p  {padding: 20px 70px 0 0;margin-right: 20px}
+
+.contact-me .adress {color: #939393; font-size: 18px; line-height: 1.7; margin-bottom: 30px; }
+
+.contact-me .white {color: #FFF; font-size: 18px; line-height: 1.7; margin-bottom: 30px; }
+
+.contact-me span {color: #939393; font-size: 18px; line-height: 1.7; margin-bottom: 30px; }
+
+.contact-me .form span {color: #FFF; font-size: 18px;}
+
+.contact-me .form input 
+{
+    margin: 10px 0 30px;
+    background-color: #4B5557;
+    border: 1px solid #4B5557;
+    width: 540px;
+    height: 50px;
+}
+
+.contact-me .form textarea
+{
+    margin: 10px 0 30px;
+    background-color: #4B5557;
+    border: 1px solid #4B5557;
+    width: 540px;
+    height: 280px;
+}
+
+.container .form input[type="submit"]
+{
+    color: #FFF;
+    width: 160px;
+    margin: 30px 0 0 0 ;
+    padding: 15px 10px;
+    text-transform: uppercase;
+    border: solid 1px #191E21;
+    background: #191E21;
+    cursor: pointer; 
+}
+
+/* end contact me */
+
+/* start footer */
+
+.footer {background-color: #191E21;  text-align: center}
+
+.footer div 
+{
+    color: #4A5456;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 40px 0 10px;
+    text-align: center;
+}
+
+.footer ul {list-style:none; padding-left: 0}
+
+.footer ul li
+{
+    display:inline-block;
+    width:24px;
+    height:24px;
+    padding:3px;
+    background-color:#485355;
+    border-radius: 50%;
+    margin-right:8px;
+    cursor:pointer
+}
+
+.footer ul li img {width:90%; height:90%;}
+
+.footer ul li:hover {background-color: #4B5356; opacity:0.5}
+
+/* end footer */
+
+/* start My Frame work */
+
+.ft-left {float: left;}
+
+.width50 {width:50%}
+
+p {color: #939393; text-align: justify; line-height: 1.7}
+
+h1 {text-transform: uppercase; color: #FFF}
+
+h2 {text-transform: uppercase; color: #555}
+
+h3 {text-transform: uppercase; color: #555}
+
+.contact
+{
+    color: #2DCC70;
+    width: 160px;
+    margin: 30px 0 0 0 ;
+    padding: 15px 0;
+    text-transform: uppercase;
+    border: solid 2px #2DCC70;
+    background: none;
+    cursor: pointer; 
+}
+
+.over-hidden {overflow: hidden}
+
+/* end My Frame work */
